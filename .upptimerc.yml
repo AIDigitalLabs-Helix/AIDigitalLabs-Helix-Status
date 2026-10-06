@@ -1,31 +1,90 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: AIDigitalLabs-Helix
+repo: AIDigitalLabs-Helix-Status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Helix API
+    url: https://api.helix.aidigitallabs.com/health
+    expectedStatusCodes: [200]
+  - name: Hub
+    url: https://hub.helix.aidigitallabs.com/version.json
+  - name: Creative Intelligence Toolkit (CIT)
+    url: https://creativeintel.helix.aidigitallabs.com/version.json
+  - name: Creative Brief Engine (CBE)
+    url: https://cbe.helix.aidigitallabs.com/version.json
+  - name: Tax Yield Defence (TYD)
+    url: https://tyd.helix.aidigitallabs.com/version.json
+  - name: Website Audit (WSA)
+    url: https://websiteaudit.helix.aidigitallabs.com/version.json
+  - name: Synthetic Focus Group (SFG)
+    url: https://focusgroup.helix.aidigitallabs.com/version.json
+  - name: ModelShare (MSH)
+    url: https://modelshare.helix.aidigitallabs.com/version.json
+  - name: Co-op Grant Programme (CGP)
+    url: https://cgp.helix.aidigitallabs.com/version.json
+  - name: Traveler Segment Builder (TSB)
+    url: https://tsb.helix.aidigitallabs.com/version.json
+  - name: Competitor Campaign Scout (CCS)
+    url: https://competitorscout.helix.aidigitallabs.com/version.json
+  - name: Social Pulse Check (SPC)
+    url: https://socialpulse.helix.aidigitallabs.com/version.json
+  - name: Influencer Discovery (ICD)
+    url: https://influencerdiscovery.helix.aidigitallabs.com/version.json
+  - name: Retail Media Scanner (RMS)
+    url: https://rms.helix.aidigitallabs.com/version.json
+  - name: Dealer Lot Radar (DLR)
+    url: https://dlr.helix.aidigitallabs.com/version.json
+  - name: RadiusIQ (RIQ)
+    url: https://riq.helix.aidigitallabs.com/version.json
+  - name: Program Page Report (PPR)
+    url: https://programpagereport.helix.aidigitallabs.com/version.json
+  - name: Graduate Earnings-Test Radar (ETR)
+    url: https://etr.helix.aidigitallabs.com/version.json
+  - name: Campaign Brief Builder (CBB)
+    url: https://briefbuilder.helix.aidigitallabs.com/version.json
+  - name: Persona Creator (PCR)
+    url: https://personacreator.helix.aidigitallabs.com/version.json
+  - name: Prompt Engineering (PEN)
+    url: https://promptengineer.helix.aidigitallabs.com/version.json
+  - name: Case Study Composer (CSC)
+    url: https://csc.helix.aidigitallabs.com/version.json
+  - name: Logic & Reasoning Review (LRR)
+    url: https://logicreview.helix.aidigitallabs.com/version.json
+  - name: Legal & Compliance Audit (LCA)
+    url: https://legalaudit.helix.aidigitallabs.com/version.json
+  - name: Concierge (CON)
+    url: https://concierge.helix.aidigitallabs.com/version.json
+  - name: Overlook (OVK)
+    url: https://overlook.helix.aidigitallabs.com/version.json
+  - name: Lodestar (LDS)
+    url: https://lodestar.helix.aidigitallabs.com/version.json
+  - name: Marquee (MRQ)
+    url: https://marquee.helix.aidigitallabs.com/version.json
+  - name: Quorum Trials (QTR)
+    url: https://quorumtrials.helix.aidigitallabs.com/version.json
+  - name: Report Generator (RGN)
+    url: https://reportgenerator.helix.aidigitallabs.com/version.json
+  - name: Listing Readiness (PLR)
+    url: https://plr.helix.aidigitallabs.com/version.json
+  - name: Groundcover (GRC)
+    url: https://grc.helix.aidigitallabs.com/version.json
+  - name: Fencerow (FCR)
+    url: https://fcr.helix.aidigitallabs.com/version.json
+  - name: Winnow (WNW)
+    url: https://wnw.helix.aidigitallabs.com/version.json
+  - name: Co-Op Radar IQ (CRI)
+    url: https://cri.helix.aidigitallabs.com/version.json
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.helix.aidigitallabs.com
+  name: Helix Status
+  introTitle: "**Helix** platform status"
+  introMessage: Independent uptime monitor for the AI Digital Labs Helix platform — the API and every live tool, probed every 5 minutes from GitHub Actions.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Hub
+      href: https://hub.helix.aidigitallabs.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
